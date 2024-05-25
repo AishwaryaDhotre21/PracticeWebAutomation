@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-//import com.project.module.baseTest.ReporterFactory;
-public class LoginImpl {
+
+public class LoginImpl  {
     WebDriver driver;
     @FindBy(id="loginusername")
     private WebElement loginUserName;
@@ -20,7 +20,7 @@ public class LoginImpl {
             private WebElement loginText;
 
     PropertyReader propertyReader = new PropertyReader();
-  //  ExtentTest extentTestReporter=ReporterFactory.getReporterFactoryInstance().
+
     public LoginImpl(WebDriver driver)
     {
         this.driver=driver;

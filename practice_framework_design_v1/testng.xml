@@ -1,4 +1,7 @@
 <suite name="Aishwarya's Test Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.project.module.baseTest.TestListenerImpl"></listener>
+    </listeners>
     <test name="signup Test Cases">
         <classes>
             <class name="com.project.module.signUP.SignUpTest"/>
